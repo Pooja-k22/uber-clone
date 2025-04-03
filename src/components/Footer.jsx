@@ -15,8 +15,8 @@ import img from "../assets/app-store-google.svg"
 function Footer() {
   return (
     <>
-      <div className="bg-black text-light">
-        <div className="container">
+      <div className="bg-black text-light ">
+        <div className="container pt-5">
           <h4 className=" pt-5">Uber</h4>
           <p className="mt-4 ">Visit Help Center</p>
           <div className="row pt-4 mt-5">

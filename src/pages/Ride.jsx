@@ -15,10 +15,10 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons/faArrowRight';
 function Ride() {
   return (
     <>
-     <div className="container">
+     <div className="container ">
         <h4 className="py-3 fw-bolder ">Ride</h4>
       </div>
-    <div className='bg-black text-light'>
+    <div className='bg-black text-light m-0'>
         <div className="container ">
             <div className="row p-md-5 py-3 ">
             <div className="col-md-6">
@@ -226,7 +226,7 @@ function Ride() {
         </div>
     </div>
 
-    <div className="container mt-5">
+    <div className="container my-5 pb-5">
         <div className="row ">
             <div className="col-md-5">
             <div className=''><button className="custom-btn w-100  text-light fw-bolder d-flex justify-content-between align-items-center" style={{fontSize:'40px',textAlign:'justify'}}><span>Reserve now</span> <FontAwesomeIcon icon={faArrowRight} className='' style={{marginLeft:"120px"}} /></button></div>
@@ -243,25 +243,25 @@ function Ride() {
 
     {/* sec */}
     <div className="container mt-5 ">
-    <p className=''>¹When you request an Uber Reserve trip, the trip price you see will be an estimate that includes a reservation fee, which may vary depending on the location of the pickup address and/or the day and time of your trip. This fee is paid by riders for their driver's additional wait time and time/distance spent traveling to the pickup location.</p>
+    <p className='' style={{textAlign:'justify'}}>¹When you request an Uber Reserve trip, the trip price you see will be an estimate that includes a reservation fee, which may vary depending on the location of the pickup address and/or the day and time of your trip. This fee is paid by riders for their driver's additional wait time and time/distance spent traveling to the pickup location.</p>
 
-<p>
+<p style={{textAlign:'justify'}}>
     ²Uber doesn’t guarantee that a driver will accept your ride request. Your ride is confirmed once you receive your driver details. Uber Reserve is available in select cities.
     
 </p>
-<p>³Wait time varies based on the vehicle option you select.</p>
+<p style={{textAlign:'justify'}}>³Wait time varies based on the vehicle option you select.</p>
 
-<p>⁴Favorite Driver feature is only available in select regions.</p>
+<p style={{textAlign:'justify'}}>⁴Favorite Driver feature is only available in select regions.</p>
 
-<p>⁵Available only at select airports. Waiting time of up to one hour after the estimated arrival time of your flight is free of charge. After that, the driver can cancel the trip request and the total fare will be charged to you. Your trip request is only confirmed once you have received your journey details. However, your driver remains free to cancel your trip request. In this case, the trip request will be offered to another nearby driver. Please note that Uber cannot guarantee that a driver will accept your trip request.</p>
+<p style={{textAlign:'justify'}}>⁵Available only at select airports. Waiting time of up to one hour after the estimated arrival time of your flight is free of charge. After that, the driver can cancel the trip request and the total fare will be charged to you. Your trip request is only confirmed once you have received your journey details. However, your driver remains free to cancel your trip request. In this case, the trip request will be offered to another nearby driver. Please note that Uber cannot guarantee that a driver will accept your trip request.</p>
 
-<p>
+<p style={{textAlign:'justify'}}>
     ⁶Applicable to UberX and most other ride types. Some ride types may require more lead time. Check the Reserve terms in your app for details.
     
 </p>
-<p>⁷Cancellation fees for Uber Reserve are higher than with on-demand. You can cancel at no charge up to 60 minutes before your reservation pickup time. If you cancel less than 60 minutes before your reservation, you’ll be charged the cancellation fee below for your driver’s time. You will not be charged a cancellation fee if no driver has confirmed your trip yet. You will receive a notification when your driver is on the way.</p>
+<p style={{textAlign:'justify'}}>⁷Cancellation fees for Uber Reserve are higher than with on-demand. You can cancel at no charge up to 60 minutes before your reservation pickup time. If you cancel less than 60 minutes before your reservation, you’ll be charged the cancellation fee below for your driver’s time. You will not be charged a cancellation fee if no driver has confirmed your trip yet. You will receive a notification when your driver is on the way.</p>
 
-<p className='pb-5'>You can find the cancellation fee amount that applies to your trip by clicking "See terms" from the in-app time selection screen that shows when you reserve a ride, and scrolling down to your preferred product type.</p>
+<p className='mb-0' style={{textAlign:'justify'}}>You can find the cancellation fee amount that applies to your trip by clicking "See terms" from the in-app time selection screen that shows when you reserve a ride, and scrolling down to your preferred product type.</p>
     </div>
     </div>
     </>
